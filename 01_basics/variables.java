@@ -7,8 +7,7 @@ public class variables {
         String name = "Hello";
         System.out.println(name);
 
-        a=b;
+        a=50;
         System.out.println(a);
-
     }
 }
