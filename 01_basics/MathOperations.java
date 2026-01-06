@@ -40,5 +40,6 @@ public class MathOperations {
 
         // Good practice: Close the scanner
         sc.close();
+        
     }
 }
