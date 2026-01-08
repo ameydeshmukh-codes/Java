@@ -28,5 +28,7 @@ public class UnaryOperator {
         decrement = a--; // Post-decrement
         System.out.println("Post-decrement (a--): " + decrement);
         System.out.println("Value of a after post-decrement: " + a);
+
+         
     }
 }
