@@ -18,7 +18,7 @@ public class MethodsExample {
         int b = 7;
         int c;
         // Method invocation using Object creation
-        //cwh_31_methods obj = new cwh_31_methods();
+        //MethodsExample obj = new MethodsExample();
         //c = obj.logic(a, b);
         c = logic(a, b);
         System.out.println(a + " "+ b);
