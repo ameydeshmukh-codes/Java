@@ -45,7 +45,7 @@ public class MethodOverloading {
 
         // Method Overloading
         foo();
-        foo(3000);
+        foo(1000);
         foo(3000, 4000);
         // Arguments are actual!
 
