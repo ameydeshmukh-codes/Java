@@ -1,10 +1,12 @@
 public class Practice {
+
+    // Write a Java method to print the multiplication table of a number n
      static void multiplication(int n) {
         for (int i = 1; i <= 10; i++) {
             System.out.format("%d X %d = %d\n", n, i, n * i);
         }
     }
-
+  // Write a program using functions to print the  pattern
     static void pattern1(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i + 1; j++) {
@@ -13,7 +15,7 @@ public class Practice {
             System.out.println();
         }
     }
-
+     // Using Recursion
     static void pattern1_rec(int n) {
         if (n > 0) {
             pattern1_rec(n - 1);
@@ -58,17 +60,17 @@ public class Practice {
     }
 
     public static void main(String[] args) {
-        // Problem 1
+        // Write a Java method to print the multiplication table of a number n
         // multiplication(7);
 
         // Problem 2
         // pattern1(9);
 
-        // Problem 3
+        // 
         // int c = sumRec(4);
         // System.out.println(c);
 
-        // Problem 4
+        // Write a function to print the nth term of the Fibonacci series using recursion.
         // fibonacci series - 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
         // int result = fib(7);
         // System.out.println(result);
