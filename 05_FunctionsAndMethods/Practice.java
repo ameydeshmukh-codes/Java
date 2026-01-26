@@ -75,7 +75,8 @@ public class Practice {
         // int result = fib(7);
         // System.out.println(result);
 
-        // Problem 8
+        // Repeat problem 2 using Recursion.
+
         pattern1(9);
 
     }
