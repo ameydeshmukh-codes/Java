@@ -29,7 +29,7 @@ public class custom_class {
         Amey.salary = 12;
         Amey.name = "Amey";
 
-        // Setting Attributes for John
+        // Setting Attributes for Amey
         Amey.id = 17;
         Amey.salary = 12;
         Amey.name = "Amey Deshmukh";
