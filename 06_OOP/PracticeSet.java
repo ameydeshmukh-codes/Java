@@ -52,18 +52,24 @@ class Tommy{
 public class PracticeSet {
     public static void main(String[] args) {
         /*
-        // Problem 1
+        //Create a class Employee with the following properties and methods:
+Salary (property) (int)
+getSalary (method returning int)
+name (property) (String)
+getName (method returning String)
+setName (method changing name) */
+
         Employee Amey = new Employee();
         Amey.setName("Amey");
         Amey.salary = 233;
         System.out.println(Amey.getSalary());
         System.out.println(Amey.getName());
-        
-        // Problem 2
+
+        // Create a class cellphone with methods to print “ringing…”, “vibrating…”, etc.
         CellPhone asus = new CellPhone();
         asus.callFriend();
         asus.vibrate();
-        //asus.ring();
+         asus.ring();
 
 
         // Problem 3
@@ -71,7 +77,7 @@ public class PracticeSet {
         sq.side = 3;
         System.out.println(sq.area());
         System.out.println(sq.perimeter());
-         */
+         
 
         // Problem 5
         Tommy player1 = new Tommy();
