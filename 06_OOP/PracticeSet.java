@@ -72,14 +72,14 @@ setName (method changing name) */
          asus.ring();
 
 
-        // Problem 3
+        // Create a class Square with a method to initialize its side, calculating area, perimeter etc
         Square sq = new Square();
         sq.side = 3;
         System.out.println(sq.area());
         System.out.println(sq.perimeter());
          
 
-        // Problem 5
+        // Problem  : Create a class TommyVecetti for Rockstar Games capable of hitting (print hitting…), running, firing, etc
         Tommy player1 = new Tommy();
         player1.fire();
         player1.run();
