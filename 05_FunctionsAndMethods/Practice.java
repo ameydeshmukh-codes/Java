@@ -46,12 +46,12 @@ public class Practice {
     }
 
     static int fib(int n) {
-        /* if(n==1){
+         if(n==1){
             return 0;
         }
         else if(n==2){
             return 1;
-        } */
+        } 
         if (n == 1 || n == 2) {
             return n - 1;
         } else {
